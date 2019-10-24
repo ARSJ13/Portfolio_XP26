@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<title>Airbnb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize/normalize.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>  
+	<script type="text/javascript">
+  	 	$(document).ready(function(){
+  	 		var link="https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72";
+  		$.ajax({
+  			url: link,
+  			type: 'GET',
+  			dataType: 'json',
+  		})
+  		.done(function(data){
+  		data.forEach(function(imovel){
+
+  			var corpo = ` <article>
+			    <img class="image" src="${imovel.photo}" alt="">
+			    <div class="text">
+			      <p >${imovel.name}</p>
+			      <p class="p">${imovel.property_type}</p>
+			      <p>${"R$ "+imovel.price}</p>
+			    </div>
+			  </article>`;
+
+			$(".grid").append(corpo);
+
+  		});
+  		});
+  	 	});
+  	</script>	
+</head>
+<body>
+	<header>
+		<img src="img/airbnb.jpg" alt="logo">
+		<div class="container">
+			<div class="logo">
+				<input class="input" type="text" placeholder="Em qualquer lugar . Estadias" />
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="#">Torne-se um anfitrião</a></li>
+					<li><a href="#">Ajuda</a></li>
+					<li><a href="#">Cadastrar-se</a></li>
+					<li><a href="#">Entrar</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>		
+	<div id="cardbnb">
+		<main class="grid">
+		</main>
+	</div>		
+</body>	
+</html>
