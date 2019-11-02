@@ -1,0 +1,18 @@
+.titulo{
+    width: 100%;
+    background-color: rgb(78, 0, 0);
+    border: 3px solid #FF4B4B;
+    color: #FFE8E8;
+    text-transform: uppercase;
+    background-image: url(./teacher.png) ;
+    background-repeat: no-repeat;
+    height: 100px;
+    position: sticky;
+    top: 0;
+
+}
+.id_post{
+    border-bottom-style: groove;
+    border-color:#ff4b4b;
+    border-width: 5px;
+}
