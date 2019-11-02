@@ -1,0 +1,145 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+/* coluna da esquerda */
+#logo>h1{
+	font: Bold 60px/83px Microsoft New Tai Lue;
+	letter-spacing: -2px;
+	color: #039825;
+	opacity: 1;
+}
+#logo>p{
+	text-align: justify;
+	text-indent: 2em;
+	font-size: 1.2em;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Cabin Sketch', cursive;
+}
+.botoes_logo{
+	display: flex;
+	justify-content: space-around;
+}
+.bot{
+	color: #039825;
+}
+.bot:hover{
+	background-color: #039825;
+	color: #fff;
+}
+
+/* coluna da direita */
+#menu_container{
+	background-image: url(../imgs/capa.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: all;
+	max-height: 630px;
+}
+.menu{
+	padding-top: 20px;
+	margin-left: 100px;
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.menu>ul>li{
+	margin-left: 2em;
+}
+.mobile-container {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.botoes{
+	font: Bold 16px/20px Microsoft New Tai Lue;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	opacity: 1;
+	text-transform: uppercase;
+}
+.botoes:hover{
+	color: #FFFFFF;
+	background: #039825 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+/*--  carousel --*/
+.container{
+	max-width: 1100px;
+}
+.home{
+	border-color: #fff;
+	max-width: 1200px;
+	margin-top: 100px;;
+	margin-right: auto;
+	margin-left: auto;
+}
+.home>h1{
+	/* background: #039825 0% 0% padding-box; */
+	background: radial-gradient(circle, rgba(3,152,37,1) 13%, rgba(3,133,32,1) 100%);
+	border-radius: 10px;
+	height: 30px;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+.carousel-caption{
+	background-color: rgba(0,0,0,0.4);
+}
+.carousel-caption>a{
+	font-size: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+.carousel-caption>p{
+	font-size: 20px;
+	color: #d1d1d1;
+}
+
+/* Início estilo footer */
+.footer{
+	margin-top: 3em;
+	padding: 0 0 0 0;
+	/* background-color: #039825; */
+	background: radial-gradient(circle, rgba(3,152,37,1) 13%, rgba(3,133,32,1) 100%);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: 300px;
+}
+.item_footer{
+	font-family: Microsoft New Tai Lue;
+}
+.item_footer>h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.item_footer>p{
+	color: #fff;
+}
+.item_footer>a>img{
+	margin: 10px;
+}
+.item_footer>img{
+	max-width: 150px;
+	max-height: 185px;
+}
+.text-footer{
+	padding: 0px;
+	list-style: none; 
+	margin-top: 10px;
+}
+.text-footer>li>a{
+	color:#fff;
+}
+.label{
+	padding-left: 8px;
+}

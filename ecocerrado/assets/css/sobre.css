@@ -1,0 +1,140 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right: auto;
+}
+/* Ajusta Tamanho Fonte Título */	
+
+@media (max-width:650px) {
+	.titulo>h2{
+	  font-size: 50px !important;
+	}
+	.titulo>p{
+		font-size: 15px !important;
+	}
+}
+@media (max-width:400px) {
+	.titulo>h2{
+	  font-size: 40px !important;
+	}
+	.titulo>p{
+		font-size: 13px !important;
+	}
+}
+
+/* navbar */
+#menu_container{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: all;
+	max-height: 630px;
+}
+.menu{
+	padding-top: 20px;
+	margin-left: 100px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+	align-items: flex-end;
+}
+.menu>ul>li{
+	margin-left: 2em;
+}
+
+.botoes{
+	font: Bold 16px/20px Microsoft New Tai Lue;
+	letter-spacing: 1px;
+	color: #039825;
+	opacity: 1;
+	text-transform: uppercase;
+}
+.botoes:hover{
+	color: #FFFFFF;
+	background: #039825 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+/* Título */
+.titulo{
+    display:flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+/* Mobile */
+.titulo>h2{
+    font: Bold 60px/83px Microsoft New Tai Lue;
+    letter-spacing: -2px;
+    color: #039825;
+    opacity: 1;
+}
+.container-mobile {
+	padding: 10px;
+	margin: 20px;
+}
+.mobile-nav {
+	font: Bold 16px/20px Microsoft New Tai Lue;
+	letter-spacing: 1px;
+	color: #039825;
+	opacity: 1;
+	padding-left: 25px;
+	text-transform: uppercase;
+}
+
+/* Cards Sobre */
+.titulo-sobre{
+	text-align: left;
+    font: Bold 22px/20px Microsoft New Tai Lue;
+    letter-spacing: -0.52px;
+    color: #039825;
+	opacity: 1;
+	margin-top: 30px;
+}
+.art-div{
+	text-align: justify;
+}
+
+
+/* Início estilo footer */
+.footer{
+	margin-top: 3em;
+	padding: 0 0 0 0;
+	/* background-color: #039825; */
+	background: radial-gradient(circle, rgba(3,152,37,1) 13%, rgba(3,133,32,1) 100%);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: 300px;
+}
+.item_footer{
+	padding: 2em;
+	font-family: Microsoft New Tai Lue;
+}
+.item_footer>h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.item_footer>p{
+	color: #fff;
+}
+.item_footer>a>img{
+	margin: 10px;
+}
+.item_footer>img{
+	max-width: 150px;
+	max-height: 185px;
+}
+.text-footer{
+	padding: 0px;
+	list-style: none; 
+	margin-top: 10px;
+}
+.text-footer>li>a{
+	color:#fff;
+}
+.label{
+	padding-left: 8px;
+}
