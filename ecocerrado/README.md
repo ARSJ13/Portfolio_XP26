@@ -11,12 +11,3 @@
     
     ### No Linux
     Você pode rodar diretamente pelo Apache (https://www.apache.org/) ou utilizar compilados como XAMPP para auxiliar na configuração.
-    
-----
-    
-##  Dúvidas?
-    Entre em contato no *thiagossmarques@gmail.com*
-
-----
-
-# Obrigado
